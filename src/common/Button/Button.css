@@ -1,0 +1,26 @@
+.button {
+    padding: 1rem;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+}
+
+.outline {
+    background-color: transparent;
+    border: 1px solid var(--negro);
+}
+
+.stuffed {
+    color: white;
+    background-color: var(--crema-oscuro);
+}
+
+.outline:hover {
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.stuffed:hover {
+    box-shadow: 0px 0px 10px 0px rgba(169, 153, 133, 1);
+}

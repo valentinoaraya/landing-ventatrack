@@ -1,0 +1,28 @@
+.heroContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 6rem 0;
+}
+
+.heroData {
+    margin: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.parrafHero {
+    margin: 2rem 0;
+    text-align: center;
+    width: 370px;
+}
+
+.heroImage {
+    margin-top: 2rem;
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}

@@ -1,0 +1,22 @@
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    background-color: var(--blanco);
+}
+
+.navBarContent {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+nav.scrolled {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
