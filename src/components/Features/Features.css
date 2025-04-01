@@ -1,0 +1,4 @@
+.featuresContainer {
+    display: flex;
+    flex-direction: column;
+}

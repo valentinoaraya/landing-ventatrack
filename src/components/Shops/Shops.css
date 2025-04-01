@@ -1,0 +1,44 @@
+.shopsContainer {
+    margin: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.line {
+    position: relative;
+    margin-bottom: 4rem;
+    width: 80%;
+    height: 2px;
+    background-color: var(--crema-oscuro);
+}
+
+.line:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(to bottom, rgba(169, 153, 133, 0.15), transparent);
+    filter: blur(10px);
+    pointer-events: none;
+}
+
+.titleShops {
+    font-size: 2.25rem;
+    font-weight: normal;
+}
+
+.shops {
+    margin-top: 5rem;
+    width: 100%;
+}
+
+.lineShop {
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}

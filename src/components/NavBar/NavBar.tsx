@@ -20,7 +20,12 @@ const NavBar = () => {
     return (
         <nav className={scrolled ? "scrolled" : ""}>
             <div className="navBarContent">
-                <h1>VentaTrack</h1>
+                <h1
+                    className="titleNavBar"
+                    onClick={() => window.scrollTo(0, 0)}
+                >
+                    VentaTrack
+                </h1>
                 <Button
                     styleButton="outline"
                     onClick={() => console.log("enviar a wsp")}

@@ -6,7 +6,8 @@ nav {
     top: 0;
     left: 0;
     z-index: 1000;
-    background-color: var(--blanco);
+    background-color: rgba(245, 241, 237, 0.75);
+    backdrop-filter: blur(20px);
 }
 
 .navBarContent {
@@ -19,4 +20,9 @@ nav {
 
 nav.scrolled {
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.titleNavBar {
+    cursor: pointer;
+    user-select: none;
 }
