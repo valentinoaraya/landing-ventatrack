@@ -13,7 +13,7 @@ const Hero = () => {
                 <p className="parrafHero">Seguí tus ventas y pagos, gestioná tus productos y cambiá precios de forma rápida y sencilla.</p>
                 <Button
                     styleButton="stuffed"
-                    onClick={() => console.log("enviar a wsp")}
+                    onClick={() => window.open("https://wa.me/542625660880?text=¡Hola!%20Me%20gustaría%20probar%20VentaTrack%20por%2010%20días%20para%20mi%20negocio.%20¿Podés%20contarme%20como%20es%20el%20proceso?", "_blank")}
                 >
                     Solicitar prueba gratis
                 </Button>

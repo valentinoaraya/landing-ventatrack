@@ -1,0 +1,20 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    gap: 1.5rem;
+    margin-top: 3rem;
+    padding: 2rem 0;
+    border-top: 2px solid var(--crema-oscuro);
+}
+
+.dataFooter h3 {
+    font-size: 1.3rem;
+    margin-bottom: .5rem;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0;
+}

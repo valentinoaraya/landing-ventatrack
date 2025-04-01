@@ -1,0 +1,49 @@
+.pricingContainer {
+    margin: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titlePricing {
+    font-size: 2.25rem;
+    font-weight: normal;
+}
+
+.cardsPriceContainer {
+    margin: 5rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.cardPrice {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color: var(--blanco);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.titleCardPrice {
+    font-size: 2.5rem;
+}
+
+.subtitleCardPrice {
+    text-align: center;
+    width: 300px;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.price {
+    margin: 2rem 0;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--gris);
+}
