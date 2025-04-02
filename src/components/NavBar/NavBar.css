@@ -26,3 +26,15 @@ nav.scrolled {
     cursor: pointer;
     user-select: none;
 }
+
+@media (max-width: 460px) {
+    .titleNavBar {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 330px) {
+    .navBarContent {
+        padding: 1rem .5rem;
+    }
+}

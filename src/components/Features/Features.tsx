@@ -54,8 +54,8 @@ const Features = () => {
                 imagesAndData={[
                     {
                         path: productWithoutCodeInput,
-                        title: "Todos tus productos registrados",
-                        subtitle: "Podés editar precio, nombre y  código  de barras de cada uno.",
+                        title: "Si le pagás a un proveedor, lo tenés registrado",
+                        subtitle: "El dinero que sale de tu caja se resta del total realizado en el día.",
                         alt: "Tabla de productos"
                     },
                 ]}

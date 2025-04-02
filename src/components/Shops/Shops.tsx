@@ -12,8 +12,8 @@ const Shops = () => {
                     <ShopItem
                         icon={
                             <CartIcon
-                                width="32"
-                                height="32"
+                                width={window.innerWidth > 1100 ? "32" : "24"}
+                                height={window.innerWidth > 1100 ? "32" : "24"}
                                 fill="#252323"
                             />
                         }
@@ -22,8 +22,8 @@ const Shops = () => {
                     <ShopItem
                         icon={
                             <HammerIcon
-                                width="32"
-                                height="32"
+                                width={window.innerWidth > 1100 ? "32" : "24"}
+                                height={window.innerWidth > 1100 ? "32" : "24"}
                                 fill="#252323"
                             />
                         }
@@ -32,8 +32,8 @@ const Shops = () => {
                     <ShopItem
                         icon={
                             <BagIcon
-                                width="32"
-                                height="32"
+                                width={window.innerWidth > 1100 ? "32" : "24"}
+                                height={window.innerWidth > 1100 ? "32" : "24"}
                                 fill="#252323"
                             />
                         }
@@ -44,8 +44,8 @@ const Shops = () => {
                     <ShopItem
                         icon={
                             <BoxIcon
-                                width="32"
-                                height="32"
+                                width={window.innerWidth > 1100 ? "32" : "24"}
+                                height={window.innerWidth > 1100 ? "32" : "24"}
                                 fill="#252323"
                             />
                         }
@@ -54,8 +54,8 @@ const Shops = () => {
                     <ShopItem
                         icon={
                             <CakeIcon
-                                width="32"
-                                height="32"
+                                width={window.innerWidth > 1100 ? "32" : "24"}
+                                height={window.innerWidth > 1100 ? "32" : "24"}
                                 fill="#252323"
                             />
                         }
@@ -66,8 +66,8 @@ const Shops = () => {
                     <ShopItem
                         icon={
                             <PencilIcon
-                                width="32"
-                                height="32"
+                                width={window.innerWidth > 1100 ? "32" : "24"}
+                                height={window.innerWidth > 1100 ? "32" : "24"}
                                 fill="#252323"
                             />
                         }
@@ -76,8 +76,8 @@ const Shops = () => {
                     <ShopItem
                         icon={
                             <PigIcon
-                                width="32"
-                                height="32"
+                                width={window.innerWidth > 1100 ? "32" : "24"}
+                                height={window.innerWidth > 1100 ? "32" : "24"}
                                 fill="#252323"
                             />
                         }

@@ -7,6 +7,7 @@
 }
 
 .titlePricing {
+    text-align: center;
     font-size: 2.25rem;
     font-weight: normal;
 }
@@ -17,6 +18,7 @@
     display: flex;
     justify-content: center;
     gap: 3rem;
+    flex-wrap: wrap;
 }
 
 .cardPrice {
@@ -46,4 +48,33 @@
     font-size: 1.25rem;
     font-weight: 700;
     color: var(--gris);
+}
+
+@media (max-width: 700px) {
+    .titlePricing {
+        font-size: 1.5rem;
+    }
+
+    .cardPrice {
+        padding: 2rem 1rem;
+    }
+
+    .titleCardPrice {
+        font-size: 1.5rem;
+    }
+
+    .subtitleCardPrice {
+        font-size: 1rem;
+    }
+
+    .price {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 370px) {
+    .cardPrice {
+        width: 100%;
+        padding: 1.5rem .5rem;
+    }
 }

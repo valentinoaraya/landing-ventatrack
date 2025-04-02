@@ -11,24 +11,24 @@ const Footer = () => {
             <div className="contacts">
                 <div className="contact">
                     <MailIcon
-                        width="24px"
-                        height="24px"
+                        width="16px"
+                        height="16px"
                         fill="#252323"
                     />
                     <p>valentinoaraya04@gmail.com</p>
                 </div>
                 <div className="contact">
                     <InstagramIcon
-                        width="24px"
-                        height="24px"
+                        width="16px"
+                        height="16px"
                         fill="#252323"
                     />
                     <p>@tinoaraya</p>
                 </div>
                 <div className="contact">
                     <PhoneIcon
-                        width="24px"
-                        height="24px"
+                        width="16px"
+                        height="16px"
                         fill="#252323"
                     />
                     <p>(+54) 2625660880</p>

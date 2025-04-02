@@ -17,6 +17,7 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    gap: 2rem;
 }
 
 .imageFeature {
@@ -41,6 +42,7 @@
 }
 
 .mainTitle {
+    text-align: center;
     font-size: 1.5rem;
     font-weight: 450;
 }
@@ -50,4 +52,15 @@
     color: var(--gris);
     text-align: center;
     width: 300px;
+}
+
+@media (max-width: 560px) {
+    .imageFeature {
+        width: 100%;
+        height: 300px;
+    }
+
+    .subtitleFeature {
+        margin-bottom: 1rem;
+    }
 }
