@@ -10,6 +10,7 @@
 .outline {
     background-color: transparent;
     border: 1px solid var(--negro);
+    color: var(--negro);
 }
 
 .stuffed {
