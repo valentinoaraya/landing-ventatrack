@@ -56,7 +56,7 @@ const Features = () => {
                         path: productWithoutCodeInput,
                         title: "Si le pagás a un proveedor, lo tenés registrado",
                         subtitle: "El dinero que sale de tu caja se resta del total realizado en el día.",
-                        alt: "Tabla de productos"
+                        alt: "Input de egresos"
                     },
                 ]}
             />
@@ -68,19 +68,19 @@ const Features = () => {
                         path: historySells,
                         title: "Todas las ventas que realizaste",
                         subtitle: "Revisá la caja del día que quieras, registramos todo por vos.",
-                        alt: "Tabla de productos"
+                        alt: "Historial de ventas"
                     },
                     {
                         path: sells,
                         title: "Revisá lo que entró y salió",
                         subtitle: "Podés ver lo que pagaste y la cantidad de ventas con sus totales.",
-                        alt: "Tabla de productos"
+                        alt: "Ventas en un día"
                     },
                     {
                         path: sellDetail,
                         title: "Cada venta en detalle",
                         subtitle: "Consultá los productos que vendiste en una venta específica.",
-                        alt: "Tabla de productos"
+                        alt: "Detalle de una venta"
                     },
                 ]}
             />
