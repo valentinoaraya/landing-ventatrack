@@ -12,7 +12,7 @@ Landing page diseñada para presentar *VentaTrack*, un software de gestión de v
 - **TypeScript** para el desarrollo.
 
 ### Entrá a visitarla:
-[VentaTrack Langing](https://landing-ventatrack.vercel.app/)
+[VentaTrack Landing](https://landing-ventatrack.vercel.app/)
 
 ---
 
